@@ -4,13 +4,13 @@ import Footer from "./components/Footer";
 import Header from "./components/Header.jsx";
 
 function App() {
-    return (
-        <>
-            <Header/>
-            <Outlet/>
-            <Footer/>
-        </>
-    );
+  return (
+    <div className="lg:container lg:mx-auto">
+      <Header/>
+      <Outlet/>
+      <Footer/>
+    </div>
+  );
 }
 
 export default App;
